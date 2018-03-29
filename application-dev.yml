@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://us-cdbr-iron-east-05.cleardb.net/ad_fe78e6e1bdee031?user=b4491e13161c8b&password=38785f0d
-    username: b4491e13161c8b
-    password: 38785f0d
+    url: ${vcap.services.cleardb[0].credentials.jdbcUrl}
+    username:  ${vcap.services.cleardb[0].credentials.username}
+    password:  ${vcap.services.cleardb[0].credentials.password}
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQL5Dialect
