@@ -1,6 +1,6 @@
 spring:  
   application:
-    name: techannotation-booking-service-mvc 
+    name: sathish-booking-service-mvc 
 
 logging:
   level: DEBUG
@@ -11,5 +11,5 @@ security:
   basic:
     enabled: false    
 
-booking-service-dao:
-  url: https://techannotation-booking-service-dao.cfapps.io
+#booking-service-dao:
+  #url: https://sathish-booking-service-dao.cfapps.io

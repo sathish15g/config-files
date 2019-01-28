@@ -1,6 +1,6 @@
 spring:  
   application:
-    name: techannotation-booking-service-dao
+    name: sathish-booking-service-dao
 
 security:
   basic:
